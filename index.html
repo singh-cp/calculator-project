@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Project - Chandra Prakash Singh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <h1>Calculator</h1>
+            <div id="userInput" value=""></div>
+            <div id="output" value=""></div>
+            <div class="buttons">
+                <button class="button" value="7">7</button>
+                <button class="button" value="8">8</button>
+                <button class="button" value="9">9</button>
+                <button class="button operators" value="/">&#247;</button>
+                <button class="button" value="4">4</button>
+                <button class="button" value="5">5</button>
+                <button class="button" value="6">6</button>
+                <button class="button operators" value="*">x</button>
+                <button class="button" value="1">1</button>
+                <button class="button" value="2">2</button>
+                <button class="button" value="3">3</button>
+                <button class="button operators" value="-">-</button>
+                <button class="button" value="0">0</button>
+                <button class="button" value=".">.</button>
+                <button class="button operators" value="+">+</button>
+                <button class="button" value="DEL">DEL</button>
+            </div>
+            <div class="edits">
+            <button class="button edit" value="C">C</button>
+            <button id="equal" class="button" value="=">=</button>
+        </div>
+
+            <div id="history">
+                <h2>History</h2>
+                <ul id="results"></ul>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

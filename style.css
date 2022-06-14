@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    text-align:center;
+}
+.container {
+    max-width: 350px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgb(53, 57, 53,.20);
+    padding:5px;
+}
+
+
+
+#userInput, #output {
+    text-align: right;
+    padding: 16px 8px;
+    font-size: 25px;
+    min-height:60px;
+}
+
+#output{
+    display: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button {
+    border: 0.95px solid white;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgba(54, 69, 79, 0.20);
+}
+
+
+
+.button:hover {
+    background-color: #3C3D3D;
+    color: white;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.05);
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+.edits{
+    display: flex;
+}
+
+.edit{
+    background-color: #3C3D3D;
+    color: #FF8C00;
+    width:50%;
+}
+
+.edit:hover {
+    background-color: red;
+    color: white;
+    transition: 0.2s ease-in-out;
+    font-size: 30px;
+}
+
+#equal {
+    background-color: #FF8C00;
+    color: white;
+    width: 70%;
+}
+
+#equal:hover {
+    background-color:white;
+    color:#FF8C00;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.operators:hover {
+    background-color: rgb(100, 149, 237, 0.75);
+    color: white;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.05);
+    font-size: 30px;
+}
+
+.operators{
+    font-size:30px;
+    font-weight:bolder;
+}
+
+#history{
+    display: none;
+}
+
+#history > h2{
+    text-align:center;
+    padding-top:2vh;
+}
+
+ul{
+    padding-left:50px;
+}
+#results > li{
+    color:#FF8C00;
+    font-size: 20px;
+}
